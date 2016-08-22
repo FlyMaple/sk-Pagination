@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="css/sk-pagination.css">
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.twbsPagination.js"></script>
+    <script src="js/sk-pagination.js"></script>
+
+    <style>
+        .sk-content {
+            font-size: 13px;
+        }
+        .sk-content li {
+            white-space: nowrap;
+            height: 28px;
+            padding-top: 6px;
+        }
+        .sk-content li:hover {
+            background: aliceblue;
+        }
+        .sk-content .label {
+            display: inline-block;
+            width: 100px;
+            margin: 0 5px 10px 0;
+            font-weight: 600;
+            border-right: 1px solid #ccc;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $('#pagination-demo').twbsPagination({
+                totalPages: 35,
+                visiblePages: 7,
+                onPageClick: function (event, page) {
+                    $('#page-content').text('Page ' + page);
+                }
+            });
+
+            $.ajax({
+                url: 'json/data.json',
+                type: 'get',
+                success: function (resp) {
+                    $('#myPagination').SK_Pagination({
+                        datas: resp.data,
+                        onePageDataCount: 10,
+                        visiblePages: 7,
+                        clickPageEvent: function (ev, ui, datas) {
+                            ui.find('.sk-content').empty();
+                            for (var i=0; i<datas.length; i++) {
+                                var $items = $('<ul>\n <li>\n  <span class="label">' + datas[i].name + '</span><span class="text">' + datas[i].desc + '</span>\n  </li>\n </ul>')
+                                ui.find('.sk-content').append($items);
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="myPagination"></div>
+    <!--<div class="sk-pagination-wrp">
+        <ul class="sk-pagination">
+            <li class="first"><a href="#">First</a></li>
+            <li class="prev"><a href="#">Prev</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li class="next"><a href="#">Next</a></li>
+            <li class="last"><a href="#">Last</a></li>
+        </ul>
+    </div>-->
+</body>
+</html>

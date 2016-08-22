@@ -1,0 +1,7631 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "骷髏兵",
+      "cost": "1",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/skeletons.png",
+      "desc": "三個快速但脆弱的近戰單位。 用這些骷髏來為攻敵軍吧！",
+      "levelDetail": {
+        "level1": {
+          "hp": "32",
+          "dps": "32",
+          "hurt": "32",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "35",
+          "dps": "35",
+          "hurt": "35",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "38",
+          "dps": "38",
+          "hurt": "38",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "42",
+          "dps": "42",
+          "hurt": "42",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "46",
+          "dps": "46",
+          "hurt": "46",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "51",
+          "dps": "51",
+          "hurt": "51",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "56",
+          "dps": "56",
+          "hurt": "56",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "61",
+          "dps": "61",
+          "hurt": "61",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "67",
+          "dps": "67",
+          "hurt": "67",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "74",
+          "dps": "74",
+          "hurt": "74",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "81",
+          "dps": "81",
+          "hurt": "81",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "89",
+          "dps": "89",
+          "hurt": "89",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "98",
+          "dps": "98",
+          "hurt": "98",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "2",
+        "name": "埋骨深淵"
+      },
+      "tags": [
+        "近戰"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "冰雪精靈",
+      "cost": "1",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/snow_and_ice_elves.png",
+      "desc": "一個活潑可愛的冰雪精靈，它可以凍住一群敵軍。凍住，不許走！",
+      "levelDetail": {
+        "level1": {
+          "hp": "90",
+          "scope_of_damagey": "50",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "99",
+          "scope_of_damagey": "55",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "108",
+          "scope_of_damagey": "60",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "119",
+          "scope_of_damagey": "66",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "131",
+          "scope_of_damagey": "73",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "144",
+          "scope_of_damagey": "80",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "158",
+          "scope_of_damagey": "88",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "173",
+          "scope_of_damagey": "96",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "190",
+          "scope_of_damagey": "106",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "209",
+          "scope_of_damagey": "116",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "230",
+          "scope_of_damagey": "128",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "252",
+          "scope_of_damagey": "140",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "278",
+          "scope_of_damagey": "154",
+          "freeze_duration": "2",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2.5",
+          "hit_speed": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "8",
+        "name": "冰封之巔"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "哥布林",
+      "cost": "2",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/goblin.png",
+      "desc": "三個近戰攻擊的小綠人，沒有盔甲護身。他們身形嬌小，行動迅速，且貪得無厭。",
+      "levelDetail": {
+        "level1": {
+          "hp": "80",
+          "dps": "45",
+          "hurt": "50",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "88",
+          "dps": "50",
+          "hurt": "55",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "96",
+          "dps": "54",
+          "hurt": "60",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "106",
+          "dps": "60",
+          "hurt": "66",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "116",
+          "dps": "66",
+          "hurt": "73",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "128",
+          "dps": "72",
+          "hurt": "80",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "140",
+          "dps": "0",
+          "hurt": "88",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "154",
+          "dps": "87",
+          "hurt": "96",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "169",
+          "dps": "96",
+          "hurt": "106",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "186",
+          "dps": "105",
+          "hurt": "116",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "204",
+          "dps": "116",
+          "hurt": "128",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "224",
+          "dps": "127",
+          "hurt": "140",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "247",
+          "dps": "140",
+          "hurt": "154",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "1",
+        "name": "哥布林競技場"
+      },
+      "tags": [
+        "近戰"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "哥布林投矛手",
+      "cost": "2",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/goblin_spear_hand.png",
+      "desc": "三個輕裝上陣的遠程進攻戰士。見鬼，到底是誰教會了這些傢伙扔長矛！？這真是個餿主意！",
+      "levelDetail": {
+        "level1": {
+          "hp": "52",
+          "dps": "18",
+          "hurt": "24",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "57",
+          "dps": "20",
+          "hurt": "26",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "62",
+          "dps": "22",
+          "hurt": "29",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "69",
+          "dps": "23",
+          "hurt": "31",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "75",
+          "dps": "26",
+          "hurt": "35",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "83",
+          "dps": "29",
+          "hurt": "38",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "91",
+          "dps": "32",
+          "hurt": "42",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "100",
+          "dps": "35",
+          "hurt": "46",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "110",
+          "dps": "38",
+          "hurt": "50",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "121",
+          "dps": "42",
+          "hurt": "55",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "133",
+          "dps": "46",
+          "hurt": "61",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "146",
+          "dps": "51",
+          "hurt": "67",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "160",
+          "dps": "56",
+          "hurt": "74",
+          "hit_speed": "1.3秒",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "1",
+        "name": "哥布林競技場"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "烈焰精靈",
+      "cost": "2",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/flame_wizard.png",
+      "desc": "這三個烈焰精靈抱著必死的決心，撲向敵方給予他們一個熱烈的\"擁抱\"，如果不是因為他們整天想對人開火，他們其實還挺可愛的。",
+      "levelDetail": {
+        "level1": {
+          "hp": "43",
+          "scope_of_damagey": "80",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "47",
+          "scope_of_damagey": "88",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "52",
+          "scope_of_damagey": "96",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "57",
+          "scope_of_damagey": "106",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "62",
+          "scope_of_damagey": "116",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "68",
+          "scope_of_damagey": "128",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "75",
+          "scope_of_damagey": "140",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "82",
+          "scope_of_damagey": "154",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "91",
+          "scope_of_damagey": "169",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "100",
+          "scope_of_damagey": "186",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "110",
+          "scope_of_damagey": "204",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "120",
+          "scope_of_damagey": "224",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "132",
+          "scope_of_damagey": "247",
+          "target": "空中和地面目標",
+          "move_speed": "極快",
+          "range": "2",
+          "hit_speed": "1秒",
+          "count": "x3",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "5",
+        "name": "法術幽谷"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "電擊法術",
+      "cost": "2",
+      "rare": "普通",
+      "type": "法術",
+      "img": "images/cards/shock_spell.png",
+      "desc": "電擊法術可以擊中敵人並造成小範為傷害與短暫暈眩效果。對皇家塔的傷害會大打折扣。",
+      "levelDetail": {
+        "level1": {
+          "scope_of_damagey": "80",
+          "tower_of_damagey": "32",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "0"
+        },
+        "level2": {
+          "scope_of_damagey": "88",
+          "tower_of_damagey": "36",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "5"
+        },
+        "level3": {
+          "scope_of_damagey": "96",
+          "tower_of_damagey": "39",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "20"
+        },
+        "level4": {
+          "scope_of_damagey": "106",
+          "tower_of_damagey": "43",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "50"
+        },
+        "level5": {
+          "scope_of_damagey": "116",
+          "tower_of_damagey": "47",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "150"
+        },
+        "level6": {
+          "scope_of_damagey": "128",
+          "tower_of_damagey": "52",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "400"
+        },
+        "level7": {
+          "scope_of_damagey": "140",
+          "tower_of_damagey": "56",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "1000"
+        },
+        "level8": {
+          "scope_of_damagey": "154",
+          "tower_of_damagey": "62",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "2000"
+        },
+        "level9": {
+          "scope_of_damagey": "169",
+          "tower_of_damagey": "68",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "4000"
+        },
+        "level10": {
+          "scope_of_damagey": "186",
+          "tower_of_damagey": "75",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "8000"
+        },
+        "level11": {
+          "scope_of_damagey": "204",
+          "tower_of_damagey": "82",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "20000"
+        },
+        "level12": {
+          "scope_of_damagey": "224",
+          "tower_of_damagey": "90",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "50000"
+        },
+        "level13": {
+          "scope_of_damagey": "247",
+          "tower_of_damagey": "99",
+          "duration": "1秒",
+          "scope": "2.5",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "5",
+        "name": "法術幽谷"
+      },
+      "tags": []
+    },
+    {
+      "id": "7",
+      "name": "騎士",
+      "cost": "3",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/knight.png",
+      "desc": "一位強悍的近戰勇士。他是野蠻人那更英俊又有禮的遠親。傳言說，他僅僅因為那拉風的鬍鬚就受封騎士了。",
+      "levelDetail": {
+        "level1": {
+          "hp": "660",
+          "dps": "65",
+          "hurt": "75",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "726",
+          "dps": "74",
+          "hurt": "82",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "798",
+          "dps": "81",
+          "hurt": "90",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "877",
+          "dps": "90",
+          "hurt": "99",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "963",
+          "dps": "99",
+          "hurt": "109",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "1056",
+          "dps": "109",
+          "hurt": "120",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "1161",
+          "dps": "120",
+          "hurt": "132",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "1273",
+          "dps": "130",
+          "hurt": "144",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "1399",
+          "dps": "144",
+          "hurt": "159",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "1537",
+          "dps": "158",
+          "hurt": "174",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "1689",
+          "dps": "174",
+          "hurt": "192",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "1854",
+          "dps": "190",
+          "hurt": "210",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "2039",
+          "dps": "210",
+          "hurt": "231",
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "近戰",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "弓箭手",
+      "cost": "3",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/archer.png",
+      "desc": "擅長遠程攻擊的一對姐妹花，輕裝上陣的她們不放過所有路空目標，不過可別奢望她們分享美髮祕訣！",
+      "levelDetail": {
+        "level1": {
+          "hp": "125",
+          "dps": "33",
+          "hurt": "40",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "137",
+          "dps": "36",
+          "hurt": "44",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "151",
+          "dps": "40",
+          "hurt": "48",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "166",
+          "dps": "44",
+          "hurt": "53",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "182",
+          "dps": "48",
+          "hurt": "58",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "200",
+          "dps": "53",
+          "hurt": "64",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "220",
+          "dps": "56",
+          "hurt": "70",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "241",
+          "dps": "64",
+          "hurt": "77",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "265",
+          "dps": "70",
+          "hurt": "84",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "291",
+          "dps": "77",
+          "hurt": "93",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "320",
+          "dps": "85",
+          "hurt": "102",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "351",
+          "dps": "93",
+          "hurt": "112",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "386",
+          "dps": "102",
+          "hurt": "123",
+          "hit_speed": "1.2秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "count": "x2",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "哥布林飛桶",
+      "cost": "3",
+      "rare": "史詩",
+      "type": "法術",
+      "img": "images/cards/goblin_flying_barrel.png",
+      "desc": "可在競技場任一地點釋放三個哥布林。小夥子們，這會是趟驚險的旅程！",
+      "levelDetail": {
+        "level1": {
+          "scope": "1.5",
+          "goblin": {
+            "value": "6",
+            "name": "哥布林",
+            "hp": "128",
+            "hurt": "80",
+            "hit_speed": "1.1秒",
+            "move_speed": "極快",
+            "target": "地面目標"
+          },
+          "goblin_count": "x3",
+          "money": "0"
+        },
+        "level2": {
+          "scope": "1.5",
+          "goblin": {
+            "value": "7",
+            "name": "哥布林",
+            "hp": "140",
+            "hurt": "88",
+            "hit_speed": "1.1秒",
+            "move_speed": "極快",
+            "target": "地面目標"
+          },
+          "goblin_count": "x3",
+          "money": "400"
+        },
+        "level3": {
+          "scope": "1.5",
+          "goblin": {
+            "value": "8",
+            "name": "哥布林",
+            "hp": "154",
+            "hurt": "96",
+            "hit_speed": "1.1秒",
+            "move_speed": "極快",
+            "target": "地面目標"
+          },
+          "goblin_count": "x3",
+          "money": "2000"
+        },
+        "level4": {
+          "scope": "1.5",
+          "goblin": {
+            "value": "9",
+            "name": "哥布林",
+            "hp": "169",
+            "hurt": "106",
+            "hit_speed": "1.1秒",
+            "move_speed": "極快",
+            "target": "地面目標"
+          },
+          "goblin_count": "x3",
+          "money": "4000"
+        },
+        "level5": {
+          "scope": "1.5",
+          "goblin": {
+            "value": "10",
+            "name": "哥布林",
+            "hp": "186",
+            "hurt": "116",
+            "hit_speed": "1.1秒",
+            "move_speed": "極快",
+            "target": "地面目標"
+          },
+          "goblin_count": "x3",
+          "money": "8000"
+        },
+        "level6": {
+          "scope": "1.5",
+          "goblin": {
+            "value": "11",
+            "name": "哥布林",
+            "hp": "204",
+            "hurt": "128",
+            "hit_speed": "1.1秒",
+            "move_speed": "極快",
+            "target": "地面目標"
+          },
+          "goblin_count": "x3",
+          "money": "20000"
+        },
+        "level7": {
+          "scope": "1.5",
+          "goblin": {
+            "value": "12",
+            "name": "哥布林",
+            "hp": "224",
+            "hurt": "140",
+            "hit_speed": "1.1秒",
+            "move_speed": "極快",
+            "target": "地面目標"
+          },
+          "goblin_count": "x3",
+          "money": "50000"
+        },
+        "level8": {
+          "scope": "1.5",
+          "goblin": {
+            "value": "13",
+            "name": "哥布林",
+            "hp": "247",
+            "hurt": "154",
+            "hit_speed": "1.1秒",
+            "move_speed": "極快",
+            "target": "地面目標"
+          },
+          "goblin_count": "x3",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "1",
+        "name": "哥布林競技場"
+      },
+      "tags": []
+    },
+    {
+      "id": "10",
+      "name": "亡靈",
+      "cost": "3",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/small_undead.png",
+      "desc": "三個行動迅速、無護甲保護的飛行進攻戰士。紅薔薇，藍部隊，亡靈飛，敵盡滅！",
+      "levelDetail": {
+        "level1": {
+          "hp": "90",
+          "dps": "40",
+          "hurt": "40",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "99",
+          "dps": "44",
+          "hurt": "44",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "108",
+          "dps": "48",
+          "hurt": "48",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "119",
+          "dps": "53",
+          "hurt": "53",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "131",
+          "dps": "58",
+          "hurt": "58",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "144",
+          "dps": "64",
+          "hurt": "64",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "158",
+          "dps": "70",
+          "hurt": "70",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "173",
+          "dps": "77",
+          "hurt": "77",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "190",
+          "dps": "84",
+          "hurt": "84",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "209",
+          "dps": "93",
+          "hurt": "93",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "230",
+          "dps": "102",
+          "hurt": "102",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "252",
+          "dps": "112",
+          "hurt": "112",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "278",
+          "dps": "123",
+          "hurt": "123",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": true,
+      "unlock": {
+        "level": "2",
+        "name": "埋骨深淵"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "狂暴法術",
+      "cost": "3",
+      "rare": "史詩",
+      "type": "法術",
+      "img": "images/cards/rage_spell.png",
+      "desc": "提升部隊移動和攻擊的速度。還可以讓部隊生產建築和召換師更快地部署部隊。各位，衝鋒吧！",
+      "levelDetail": {
+        "level1": {
+          "duration": "8秒",
+          "acceleration_effect": "+40%",
+          "scope": "5",
+          "money": "0"
+        },
+        "level2": {
+          "duration": "8.5秒",
+          "acceleration_effect": "+40%",
+          "scope": "5",
+          "money": "400"
+        },
+        "level3": {
+          "duration": "秒",
+          "acceleration9_effect": "+40%",
+          "scope": "5",
+          "money": "2000"
+        },
+        "level4": {
+          "duration": "9.5秒",
+          "acceleration_effect": "+40%",
+          "scope": "5",
+          "money": "4000"
+        },
+        "level5": {
+          "duration": "10秒",
+          "acceleration_effect": "+40%",
+          "scope": "5",
+          "money": "8000"
+        },
+        "level6": {
+          "duration": "10.5秒",
+          "acceleration_effect": "+40%",
+          "scope": "5",
+          "money": "20000"
+        },
+        "level7": {
+          "duration": "11秒",
+          "acceleration_effect": "+40%",
+          "scope": "5",
+          "money": "50000"
+        },
+        "level8": {
+          "duration": "11.5秒",
+          "acceleration_effect": "+40%",
+          "scope": "5",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "3",
+        "name": "野蠻人擂台"
+      },
+      "tags": []
+    },
+    {
+      "id": "12",
+      "name": "萬箭齊發",
+      "cost": "3",
+      "rare": "普通",
+      "type": "法術",
+      "img": "images/cards/arrow.png",
+      "desc": "萬箭齊發可以覆蓋大片區域並對其中所有目標造成傷害。對皇家塔的傷害會大打折扣。",
+      "levelDetail": {
+        "level1": {
+          "scope_of_damagey": "115",
+          "tower_of_damagey": "46",
+          "range": "4",
+          "money": "0"
+        },
+        "level2": {
+          "scope_of_damagey": "126",
+          "tower_of_damagey": "51",
+          "range": "4",
+          "money": "5"
+        },
+        "level3": {
+          "scope_of_damagey": "139",
+          "tower_of_damagey": "56",
+          "range": "4",
+          "money": "20"
+        },
+        "level4": {
+          "scope_of_damagey": "152",
+          "tower_of_damagey": "61",
+          "range": "4",
+          "money": "50"
+        },
+        "level5": {
+          "scope_of_damagey": "168",
+          "tower_of_damagey": "37",
+          "range": "4",
+          "money": "150"
+        },
+        "level6": {
+          "scope_of_damagey": "184",
+          "tower_of_damagey": "74",
+          "range": "4",
+          "money": "400"
+        },
+        "level7": {
+          "scope_of_damagey": "202",
+          "tower_of_damagey": "81",
+          "range": "4",
+          "money": "1000"
+        },
+        "level8": {
+          "scope_of_damagey": "221",
+          "tower_of_damagey": "89",
+          "range": "4",
+          "money": "2000"
+        },
+        "level9": {
+          "scope_of_damagey": "243",
+          "tower_of_damagey": "98",
+          "range": "4",
+          "money": "4000"
+        },
+        "level10": {
+          "scope_of_damagey": "268",
+          "tower_of_damagey": "107",
+          "range": "4",
+          "money": "8000"
+        },
+        "level11": {
+          "scope_of_damagey": "295",
+          "tower_of_damagey": "118",
+          "range": "4",
+          "money": "20000"
+        },
+        "level12": {
+          "scope_of_damagey": "323",
+          "tower_of_damagey": "130",
+          "range": "4",
+          "money": "50000"
+        },
+        "level13": {
+          "scope_of_damagey": "355",
+          "tower_of_damagey": "142",
+          "range": "4",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": []
+    },
+    {
+      "id": "13",
+      "name": "骷髏墓碑",
+      "cost": "3",
+      "rare": "稀有",
+      "type": "建築",
+      "img": "images/cards/skeleton_tombstone.png",
+      "desc": "軍隊建築，每隔數秒會放出骷髏兵攻擊敵軍。被摧毀後會產生4個骷髏兵。恐怖喔！恐怖到了極點喔！",
+      "levelDetail": {
+        "level1": {
+          "hp": "240",
+          "skeletons_level": {
+            "value": "3",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "264",
+          "skeletons_level": {
+            "value": "4",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "290",
+          "skeletons_level": {
+            "value": "5",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "319",
+          "skeletons_level": {
+            "value": "6",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "305",
+          "skeletons_level": {
+            "value": "7",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "384",
+          "skeletons_level": {
+            "value": "8",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "422",
+          "skeletons_level": {
+            "value": "9",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "462",
+          "skeletons_level": {
+            "value": "10",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "508",
+          "skeletons_level": {
+            "value": "11",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "558",
+          "skeletons_level": {
+            "value": "12",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "614",
+          "skeletons_level": {
+            "value": "13",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "2.9秒",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "2",
+        "name": "埋骨深淵"
+      },
+      "tags": []
+    },
+    {
+      "id": "14",
+      "name": "加農炮",
+      "cost": "3",
+      "rare": "普通",
+      "type": "建築",
+      "img": "images/cards/cannon.png",
+      "desc": "防禦建築，能發射致命的炮彈，但無法攻擊飛行單位。",
+      "levelDetail": {
+        "level1": {
+          "hp": "350",
+          "dps": "75",
+          "hurt": "60",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "385",
+          "dps": "82",
+          "hurt": "66",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "423",
+          "dps": "90",
+          "hurt": "72",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "465",
+          "dps": "98",
+          "hurt": "79",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "511",
+          "dps": "106",
+          "hurt": "85",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "560",
+          "dps": "120",
+          "hurt": "96",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "616",
+          "dps": "131",
+          "hurt": "105",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "675",
+          "dps": "143",
+          "hurt": "115",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "742",
+          "dps": "158",
+          "hurt": "127",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "815",
+          "dps": "173",
+          "hurt": "139",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "896",
+          "dps": "191",
+          "hurt": "153",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "983",
+          "dps": "210",
+          "hurt": "168",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "1081",
+          "dps": "231",
+          "hurt": "185",
+          "hit_speed": "0.8",
+          "target": "地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "30秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "3",
+        "name": "野蠻人擂台"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "骷髏守衛",
+      "cost": "3",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/skull_guard.png",
+      "desc": "骷髏三兄弟，手持盾牌，冷酷無情。即使被打掉了盾牌，他們也會戰鬥到底。",
+      "levelDetail": {
+        "level1": {
+          "hp": "65",
+          "shield": "150",
+          "dps": "54",
+          "hurt": "65",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "71",
+          "shield": "165",
+          "dps": "59",
+          "hurt": "71",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "78",
+          "shield": "181",
+          "dps": "65",
+          "hurt": "78",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "86",
+          "shield": "199",
+          "dps": "71",
+          "hurt": "86",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "94",
+          "shield": "219",
+          "dps": "78",
+          "hurt": "94",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "104",
+          "shield": "240",
+          "dps": "86",
+          "hurt": "104",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "114",
+          "shield": "264",
+          "dps": "95",
+          "hurt": "114",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "125",
+          "shield": "289",
+          "dps": "104",
+          "hurt": "125",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "7",
+        "name": "皇家競技場"
+      },
+      "tags": [
+        "近戰"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "炸彈兵",
+      "cost": "3",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/bomb_soldiers.png",
+      "desc": "別看這骷髏又小又脆弱，但他投擲的炸彈可會造成範為傷害，能消滅一群敵軍。",
+      "levelDetail": {
+        "level1": {
+          "hp": "150",
+          "dps": "63",
+          "scope_of_damagey": "120",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "165",
+          "dps": "69",
+          "scope_of_damagey": "132",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "181",
+          "dps": "76",
+          "scope_of_damagey": "145",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "199",
+          "dps": "83",
+          "scope_of_damagey": "159",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "219",
+          "dps": "92",
+          "scope_of_damagey": "175",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "240",
+          "dps": "101",
+          "scope_of_damagey": "192",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "264",
+          "dps": "111",
+          "scope_of_damagey": "211",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "289",
+          "dps": "121",
+          "scope_of_damagey": "231",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "318",
+          "dps": "133",
+          "scope_of_damagey": "254",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "349",
+          "dps": "146",
+          "scope_of_damagey": "279",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "384",
+          "dps": "161",
+          "scope_of_damagey": "307",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "421",
+          "dps": "177",
+          "scope_of_damagey": "337",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "463",
+          "dps": "194",
+          "scope_of_damagey": "369",
+          "hit_speed": "1.9",
+          "move_speed": "中等",
+          "target": "地面目標",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "遠程",
+        "範圍"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "公主",
+      "cost": "3",
+      "rare": "傳奇",
+      "type": "軍隊",
+      "img": "images/cards/princess.png",
+      "desc": "這位迷人的公主會從遠距離發射火焰箭。如果你看到她時感到很溫暖，當心了，這可能是因為你身上著火了。",
+      "levelDetail": {
+        "level1": {
+          "hp": "216",
+          "dps": "46",
+          "scope_of_damagey": "140",
+          "hit_speed": "3秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "9",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "237",
+          "dps": "51",
+          "scope_of_damagey": "154",
+          "hit_speed": "3秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "9",
+          "prepare_time": "1秒",
+          "money": "5000"
+        },
+        "level3": {
+          "hp": "261",
+          "dps": "56",
+          "scope_of_damagey": "169",
+          "hit_speed": "3秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "9",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level4": {
+          "hp": "287",
+          "dps": "62",
+          "scope_of_damagey": "186",
+          "hit_speed": "3秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "9",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level5": {
+          "hp": "315",
+          "dps": "68",
+          "scope_of_damagey": "204",
+          "hit_speed": "3秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "9",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "7",
+        "name": "皇家競技場"
+      },
+      "tags": [
+        "遠程",
+        "範圍"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "寒冰法師",
+      "cost": "3",
+      "rare": "傳奇",
+      "type": "軍隊",
+      "img": "images/cards/ice_master.png",
+      "desc": "這位超酷的法師會向敵人發射冰晶，降低他們的移動速度和攻擊速度。雖然寒冰法師外表冷酷，但他那迷人的鬍子透露出的熱情就已經足夠讓他們在皇室TV人氣大旺了。",
+      "levelDetail": {
+        "level1": {
+          "hp": "700",
+          "dps": "42",
+          "scope_of_damagey": "63",
+          "hit_speed": "1.5秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "770",
+          "dps": "46",
+          "scope_of_damagey": "69",
+          "hit_speed": "1.5秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "money": "5000"
+        },
+        "level3": {
+          "hp": "847",
+          "dps": "50",
+          "scope_of_damagey": "76",
+          "hit_speed": "1.5秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level4": {
+          "hp": "931",
+          "dps": "55",
+          "scope_of_damagey": "83",
+          "hit_speed": "1.5秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level5": {
+          "hp": "1022",
+          "dps": "60",
+          "scope_of_damagey": "91",
+          "hit_speed": "1.5秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "5",
+        "name": "法術幽谷"
+      },
+      "tags": [
+        "遠程",
+        "範圍",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "復仇滾木",
+      "cost": "2",
+      "rare": "傳奇",
+      "type": "法術",
+      "img": "images/cards/bowling.png",
+      "desc": "不小心灑出的狂暴藥水將這跟無辜的圓木變成了\"復仇滾木\"。現在，它一心復仇，擋住它去路的任何東西都會被無情地碾壓！",
+      "levelDetail": {
+        "level1": {
+          "target": "地面目標",
+          "dps": "240",
+          "tower_of_damagey": "96",
+          "width": "3.9",
+          "scrolling_distance": "9.6",
+          "money": "0"
+        },
+        "level2": {
+          "target": "地面目標",
+          "dps": "264",
+          "tower_of_damagey": "106",
+          "width": "3.9",
+          "scrolling_distance": "9.6",
+          "money": "5000"
+        },
+        "level3": {
+          "target": "地面目標",
+          "dps": "290",
+          "tower_of_damagey": "116",
+          "width": "3.9",
+          "scrolling_distance": "9.6",
+          "money": "20000"
+        },
+        "level4": {
+          "target": "地面目標",
+          "dps": "319",
+          "tower_of_damagey": "128",
+          "width": "3.9",
+          "scrolling_distance": "9.6",
+          "money": "50000"
+        },
+        "level5": {
+          "target": "地面目標",
+          "dps": "350",
+          "tower_of_damagey": "140",
+          "width": "3.9",
+          "scrolling_distance": "9.6",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "6",
+        "name": "建築工人工坊"
+      },
+      "tags": []
+    },
+    {
+      "id": "20",
+      "name": "掘地礦工",
+      "cost": "3",
+      "rare": "傳奇",
+      "type": "軍隊",
+      "img": "images/cards/miner.png",
+      "desc": "掘地礦工可以掘第三尺並在競技場中的任何位置破土而出。這可不是什麼魔法，他靠的是他的鏟子。",
+      "levelDetail": {
+        "level1": {
+          "hp": "1060",
+          "dps": "133",
+          "hurt": "160",
+          "tower_of_damagey": "64",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "0.7秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1166",
+          "dps": "146",
+          "hurt": "176",
+          "tower_of_damagey": "71",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "0.7秒",
+          "money": "5000"
+        },
+        "level3": {
+          "hp": "1282",
+          "dps": "160",
+          "hurt": "193",
+          "tower_of_damagey": "78",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "0.7秒",
+          "money": "20000"
+        },
+        "level4": {
+          "hp": "1409",
+          "dps": "176",
+          "hurt": "212",
+          "tower_of_damagey": "85",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "0.7秒",
+          "money": "50000"
+        },
+        "level5": {
+          "hp": "1547",
+          "dps": "194",
+          "hurt": "233",
+          "tower_of_damagey": "94",
+          "hit_speed": "1.2秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "0.7秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "6",
+        "name": "建築工人工坊"
+      },
+      "tags": [
+        "近戰",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "迷你皮卡",
+      "cost": "4",
+      "rare": "稀有",
+      "type": "軍隊",
+      "img": "images/cards/mini_pickup.png",
+      "desc": "競技場可不是追著蝴蝶跑的地方，迷你皮卡不是來消遣的而是來消滅一切的！",
+      "levelDetail": {
+        "level1": {
+          "hp": "600",
+          "dps": "180",
+          "hurt": "325",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "330",
+          "dps": "198",
+          "hurt": "357",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "726",
+          "dps": "216",
+          "hurt": "393",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "798",
+          "dps": "240",
+          "hurt": "432",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "876",
+          "dps": "263",
+          "hurt": "474",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "960",
+          "dps": "288",
+          "hurt": "520",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1056",
+          "dps": "317",
+          "hurt": "572",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "1158",
+          "dps": "348",
+          "hurt": "627",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "1272",
+          "dps": "382",
+          "hurt": "689",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "1398",
+          "dps": "420",
+          "hurt": "727",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "1536",
+          "dps": "462",
+          "hurt": "832",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "近戰"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "火球",
+      "cost": "4",
+      "rare": "稀有",
+      "type": "法術",
+      "img": "images/cards/fireball.png",
+      "desc": "啊啊啊啊...火球出擊。它能焚燒小片區域並造成大量傷害。對皇家塔的傷害會大打折扣。",
+      "levelDetail": {
+        "level1": {
+          "scope_of_damagey": "325",
+          "tower_of_damagey": "130",
+          "scope": "2.5",
+          "money": "0"
+        },
+        "level2": {
+          "scope_of_damagey": "357",
+          "tower_of_damagey": "143",
+          "scope": "2.5",
+          "money": "50"
+        },
+        "level3": {
+          "scope_of_damagey": "396",
+          "tower_of_damagey": "158",
+          "scope": "2.5",
+          "money": "150"
+        },
+        "level4": {
+          "scope_of_damagey": "432",
+          "tower_of_damagey": "173",
+          "scope": "2.5",
+          "money": "400"
+        },
+        "level5": {
+          "scope_of_damagey": "476",
+          "tower_of_damagey": "190",
+          "scope": "2.5",
+          "money": "1000"
+        },
+        "level6": {
+          "scope_of_damagey": "520",
+          "tower_of_damagey": "208",
+          "scope": "2.5",
+          "money": "2000"
+        },
+        "level7": {
+          "scope_of_damagey": "572",
+          "tower_of_damagey": "229",
+          "scope": "2.5",
+          "money": "4000"
+        },
+        "level8": {
+          "scope_of_damagey": "637",
+          "tower_of_damagey": "251",
+          "scope": "2.5",
+          "money": "8000"
+        },
+        "level9": {
+          "scope_of_damagey": "689",
+          "tower_of_damagey": "276",
+          "scope": "2.5",
+          "money": "20000"
+        },
+        "level10": {
+          "scope_of_damagey": "757",
+          "tower_of_damagey": "303",
+          "scope": "2.5",
+          "money": "50000"
+        },
+        "level11": {
+          "scope_of_damagey": "832",
+          "tower_of_damagey": "333",
+          "scope": "2.5",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": []
+    },
+    {
+      "id": "23",
+      "name": "野豬騎士",
+      "cost": "4",
+      "rare": "稀有",
+      "type": "軍隊",
+      "img": "images/cards/boar_knight.png",
+      "desc": "行動迅速的近戰部隊，他們會以建築物為目標，還能跳過河流。他追隨著「野豬騎士來囉~」的回音而來，一路衝向競技場。",
+      "levelDetail": {
+        "level1": {
+          "hp": "800",
+          "dps": "100",
+          "hurt": "150",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "880",
+          "dps": "110",
+          "hurt": "165",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "968",
+          "dps": "120",
+          "hurt": "181",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "1064",
+          "dps": "132",
+          "hurt": "199",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "1168",
+          "dps": "146",
+          "hurt": "219",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "1280",
+          "dps": "160",
+          "hurt": "240",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1408",
+          "dps": "176",
+          "hurt": "264",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "1544",
+          "dps": "192",
+          "hurt": "289",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "1696",
+          "dps": "212",
+          "hurt": "318",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "1864",
+          "dps": "232",
+          "hurt": "349",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "2048",
+          "dps": "256",
+          "hurt": "384",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "極快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "b",
+      "canfly": false,
+      "unlock": {
+        "level": "4",
+        "name": "皮卡超人樂園"
+      },
+      "tags": [
+        "近戰"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "火槍手",
+      "cost": "4",
+      "rare": "稀有",
+      "type": "軍隊",
+      "img": "images/cards/musketeers.png",
+      "desc": "別被火槍手優雅的外表迷惑了，她一拿起武器可是毫不留情！",
+      "levelDetail": {
+        "level1": {
+          "hp": "340",
+          "dps": "90",
+          "hurt": "100",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "374",
+          "dps": "100",
+          "hurt": "110",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "411",
+          "dps": "110",
+          "hurt": "121",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "452",
+          "dps": "120",
+          "hurt": "133",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "496",
+          "dps": "132",
+          "hurt": "146",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "544",
+          "dps": "145",
+          "hurt": "160",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "598",
+          "dps": "160",
+          "hurt": "176",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "656",
+          "dps": "175",
+          "hurt": "193",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "720",
+          "dps": "192",
+          "hurt": "212",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "792",
+          "dps": "211",
+          "hurt": "233",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "870",
+          "dps": "232",
+          "hurt": "256",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "25",
+      "name": "飛龍寶寶",
+      "cost": "4",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/dragon_baby.png",
+      "desc": "可造成範圍傷害的飛行單位。可愛又貪吃的飛龍寶寶已經準備好迎接烤肉大餐啦！",
+      "levelDetail": {
+        "level1": {
+          "hp": "800",
+          "dps": "55",
+          "scope_of_damagey": "100",
+          "hit_speed": "1.8秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "scope": "3",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "880",
+          "dps": "61",
+          "scope_of_damagey": "110",
+          "hit_speed": "1.8秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "scope": "3",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "968",
+          "dps": "67",
+          "scope_of_damagey": "121",
+          "hit_speed": "1.8秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "scope": "3",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "1064",
+          "dps": "73",
+          "scope_of_damagey": "133",
+          "hit_speed": "1.8秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "scope": "3",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "1168",
+          "dps": "81",
+          "scope_of_damagey": "146",
+          "hit_speed": "1.8秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "scope": "3",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "1280",
+          "dps": "88",
+          "scope_of_damagey": "160",
+          "hit_speed": "1.8秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "scope": "3",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "1408",
+          "dps": "97",
+          "scope_of_damagey": "176",
+          "hit_speed": "1.8秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "scope": "3",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "1544",
+          "dps": "107",
+          "scope_of_damagey": "193",
+          "hit_speed": "1.8秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "scope": "3",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": true,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "遠程",
+        "範圍",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "26",
+      "name": "骷髏軍團",
+      "cost": "4",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/skeleton_legion.png",
+      "desc": "召換一支骷髏大軍。來見見萊利和他的好夥伴們 哈利、蓋利、泰利、瑪莉和多莉一夥人吧。",
+      "levelDetail": {
+        "level1": {
+          "hp": "32",
+          "dps": "32",
+          "hurt": "32",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x21",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "35",
+          "dps": "35",
+          "hurt": "35",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x21",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "38",
+          "dps": "38",
+          "hurt": "38",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x21",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "42",
+          "dps": "42",
+          "hurt": "42",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x21",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "46",
+          "dps": "46",
+          "hurt": "46",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x21",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "51",
+          "dps": "51",
+          "hurt": "51",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x21",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "56",
+          "dps": "56",
+          "hurt": "56",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x21",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "61",
+          "dps": "61",
+          "hurt": "61",
+          "hit_speed": "1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "count": "x21",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": []
+    },
+    {
+      "id": "27",
+      "name": "黑暗王子",
+      "cost": "4",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/prince_of_darkness.png",
+      "desc": "黑暗王子可以造成範為傷害，他用狼牙棒為自己代言~ 因為當他說話時，聽起來就像頭上罩了個水桶。",
+      "levelDetail": {
+        "level1": {
+          "hp": "700",
+          "shield": "200",
+          "dps": "90",
+          "scope_of_damagey": "135",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "770",
+          "shield": "220",
+          "dps": "98",
+          "scope_of_damagey": "148",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "847",
+          "shield": "242",
+          "dps": "108",
+          "scope_of_damagey": "163",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "931",
+          "shield": "266",
+          "dps": "119",
+          "scope_of_damagey": "179",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "1022",
+          "shield": "292",
+          "dps": "131",
+          "scope_of_damagey": "197",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "1120",
+          "shield": "320",
+          "dps": "144",
+          "scope_of_damagey": "216",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "1232",
+          "shield": "352",
+          "dps": "158",
+          "scope_of_damagey": "237",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "1351",
+          "shield": "386",
+          "dps": "172",
+          "scope_of_damagey": "260",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "7",
+        "name": "皇家競技場"
+      },
+      "tags": [
+        "近戰",
+        "範圍"
+      ]
+    },
+    {
+      "id": "28",
+      "name": "瓦基麗武神",
+      "cost": "4",
+      "rare": "稀有",
+      "type": "軍隊",
+      "img": "images/cards/wajili.png",
+      "desc": "強悍的近戰戰士，她可對周圍的敵軍造成範為傷害。成群結隊的敵軍她都不放在眼裡！只要幾個旋風斬就能將他們全部粉碎。",
+      "levelDetail": {
+        "level1": {
+          "hp": "880",
+          "dps": "80",
+          "scope_of_damagey": "120",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "968",
+          "dps": "88",
+          "scope_of_damagey": "132",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "1064",
+          "dps": "96",
+          "scope_of_damagey": "145",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "1170",
+          "dps": "106",
+          "scope_of_damagey": "159",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "1284",
+          "dps": "116",
+          "scope_of_damagey": "175",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "1408",
+          "dps": "128",
+          "scope_of_damagey": "192",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1548",
+          "dps": "140",
+          "scope_of_damagey": "211",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "1698",
+          "dps": "154",
+          "scope_of_damagey": "231",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "1865",
+          "dps": "169",
+          "scope_of_damagey": "254",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "2050",
+          "dps": "186",
+          "scope_of_damagey": "279",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "2252",
+          "dps": "204",
+          "scope_of_damagey": "307",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "1",
+        "name": "哥布林競技場"
+      },
+      "tags": [
+        "近戰",
+        "範圍",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "29",
+      "name": "迫擊砲",
+      "cost": "4",
+      "rare": "普通",
+      "type": "建築",
+      "img": "images/cards/mortar.png",
+      "desc": "射程極遠的防禦建築，能發射爆炸性炮彈並造成範為傷害，但無法瞄準靠的太近的目標。",
+      "levelDetail": {
+        "level1": {
+          "hp": "600",
+          "dps": "21",
+          "scope_of_damagey": "108",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "660",
+          "dps": "23",
+          "scope_of_damagey": "119",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "726",
+          "dps": "6",
+          "scope_of_damagey": "1131",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "798",
+          "dps": "29",
+          "scope_of_damagey": "145",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "876",
+          "dps": "31",
+          "scope_of_damagey": "158",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "960",
+          "dps": "34",
+          "scope_of_damagey": "173",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "1056",
+          "dps": "38",
+          "scope_of_damagey": "190",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "1158",
+          "dps": "41",
+          "scope_of_damagey": "208",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "1272",
+          "dps": "45",
+          "scope_of_damagey": "229",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "1398",
+          "dps": "50",
+          "scope_of_damagey": "251",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "1536",
+          "dps": "55",
+          "scope_of_damagey": "76",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "1686",
+          "dps": "60",
+          "scope_of_damagey": "303",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "1854",
+          "dps": "66",
+          "scope_of_damagey": "333",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "30秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "6",
+        "name": "建築工人工坊"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "30",
+      "name": "特斯拉電磁塔",
+      "cost": "4",
+      "rare": "普通",
+      "type": "建築",
+      "img": "images/cards/tesla_electric_tower.png",
+      "desc": "防禦建築，在未觸發時，電塔會一直隱藏於地底。",
+      "levelDetail": {
+        "level1": {
+          "hp": "450",
+          "dps": "80",
+          "hurt": "64",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "495",
+          "dps": "87",
+          "hurt": "70",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "544",
+          "dps": "96",
+          "hurt": "77",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "598",
+          "dps": "106",
+          "hurt": "85",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "657",
+          "dps": "116",
+          "hurt": "90",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "720",
+          "dps": "127",
+          "hurt": "102",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "792",
+          "dps": "140",
+          "hurt": "112",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "868",
+          "dps": "153",
+          "hurt": "123",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "954",
+          "dps": "168",
+          "hurt": "135",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "1048",
+          "dps": "186",
+          "hurt": "149",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "1152",
+          "dps": "203",
+          "hurt": "163",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "1264",
+          "dps": "223",
+          "hurt": "179",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "1390",
+          "dps": "246",
+          "hurt": "197",
+          "hit_speed": "0.8秒",
+          "target": "空中地面目標",
+          "range": "5.5",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "4",
+        "name": "皮卡超人樂園"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "31",
+      "name": "烈焰熔爐",
+      "cost": "4",
+      "rare": "稀有",
+      "type": "建築",
+      "img": "images/cards/furnace.png",
+      "desc": "烈焰熔爐每次能產出2個烈焰精靈。不僅如此，用它烤出來的煎餅也很美味。",
+      "levelDetail": {
+        "level1": {
+          "hp": "600",
+          "flame_wizard_level": {
+            "value": "3",
+            "name": "烈焰精靈",
+            "hp": "52",
+            "scope_of_damagey": "96",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "660",
+          "flame_wizard_level": {
+            "value": "4",
+            "name": "烈焰精靈",
+            "hp": "57",
+            "scope_of_damagey": "106",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "726",
+          "flame_wizard_level": {
+            "value": "5",
+            "name": "烈焰精靈",
+            "hp": "62",
+            "scope_of_damagey": "116",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "798",
+          "flame_wizard_level": {
+            "value": "6",
+            "name": "烈焰精靈",
+            "hp": "68",
+            "scope_of_damagey": "128",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "876",
+          "flame_wizard_level": {
+            "value": "7",
+            "name": "烈焰精靈",
+            "hp": "75",
+            "scope_of_damagey": "140",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "960",
+          "flame_wizard_level": {
+            "value": "8",
+            "name": "烈焰精靈",
+            "hp": "82",
+            "scope_of_damagey": "154",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1056",
+          "flame_wizard_level": {
+            "value": "9",
+            "name": "烈焰精靈",
+            "hp": "91",
+            "scope_of_damagey": "169",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "1158",
+          "flame_wizard_level": {
+            "value": "10",
+            "name": "烈焰精靈",
+            "hp": "100",
+            "scope_of_damagey": "186",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "1276",
+          "flame_wizard_level": {
+            "value": "11",
+            "name": "烈焰精靈",
+            "hp": "110",
+            "scope_of_damagey": "204",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "1402",
+          "flame_wizard_level": {
+            "value": "12",
+            "name": "烈焰精靈",
+            "hp": "120",
+            "scope_of_damagey": "224",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "1536",
+          "flame_wizard_level": {
+            "value": "13",
+            "name": "烈焰精靈",
+            "hp": "132",
+            "scope_of_damagey": "247",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "10秒",
+          "prepare_time": "1秒",
+          "duration": "50秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "5",
+        "name": "法術幽谷"
+      },
+      "tags": []
+    },
+    {
+      "id": "32",
+      "name": "冰凍法術",
+      "cost": "4",
+      "rare": "史詩",
+      "type": "法術",
+      "img": "images/cards/freezing_spell.png",
+      "desc": "凍結軍隊和建築，使其無法移動或攻擊。瞧，敵人已經在瑟瑟發抖了！",
+      "levelDetail": {
+        "level1": {
+          "duration": "4秒",
+          "scope": "3",
+          "money": "0"
+        },
+        "level2": {
+          "duration": "4.3秒",
+          "scope": "3",
+          "money": "400"
+        },
+        "level3": {
+          "duration": "4.6秒",
+          "scope": "3",
+          "money": "2000"
+        },
+        "level4": {
+          "duration": "4.9秒",
+          "scope": "3",
+          "money": "4000"
+        },
+        "level5": {
+          "duration": "5.2秒",
+          "scope": "3",
+          "money": "8000"
+        },
+        "level6": {
+          "duration": "5.5秒",
+          "scope": "3",
+          "money": "20000"
+        },
+        "level7": {
+          "duration": "5.8秒",
+          "scope": "3",
+          "money": "50000"
+        },
+        "level8": {
+          "duration": "6.1秒",
+          "scope": "3",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "4",
+        "name": "皮卡超人樂園"
+      },
+      "tags": []
+    },
+    {
+      "id": "33",
+      "name": "毒藥法術",
+      "cost": "4",
+      "rare": "史詩",
+      "type": "法術",
+      "img": "images/cards/poison_spell.png",
+      "desc": "用黏黏的毒藥覆蓋目標區域，對區域內部隊和建築造成傷害，並減緩其移動和攻擊速度。但為什麼毒藥法術作用過後的草地依然生機勃勃綠意盎然呢？猜看猜吧。",
+      "levelDetail": {
+        "level1": {
+          "dps": "42",
+          "tower_of_damagey": "17",
+          "duration": "10秒",
+          "scope": "3.5",
+          "money": "0"
+        },
+        "level2": {
+          "dps": "46",
+          "tower_of_damagey": "19",
+          "duration": "10秒",
+          "scope": "3.5",
+          "money": "400"
+        },
+        "level3": {
+          "dps": "50",
+          "tower_of_damagey": "20",
+          "duration": "10秒",
+          "scope": "3.5",
+          "money": "2000"
+        },
+        "level4": {
+          "dps": "55",
+          "tower_of_damagey": "22",
+          "duration": "10秒",
+          "scope": "3.5",
+          "money": "4000"
+        },
+        "level5": {
+          "dps": "61",
+          "tower_of_damagey": "25",
+          "duration": "10秒",
+          "scope": "3.5",
+          "money": "8000"
+        },
+        "level6": {
+          "dps": "67",
+          "tower_of_damagey": "27",
+          "duration": "10秒",
+          "scope": "3.5",
+          "money": "20000"
+        },
+        "level7": {
+          "dps": "73",
+          "tower_of_damagey": "30",
+          "duration": "10秒",
+          "scope": "3.5",
+          "money": "50000"
+        },
+        "level8": {
+          "dps": "81",
+          "tower_of_damagey": "33",
+          "duration": "10秒",
+          "scope": "3.5",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "5",
+        "name": "法術幽谷"
+      },
+      "tags": []
+    },
+    {
+      "id": "34",
+      "name": "狂暴伐木工",
+      "cost": "4",
+      "rare": "傳奇",
+      "type": "軍隊",
+      "img": "images/cards/lumberjack.png",
+      "desc": "他白天砍樹，晚上捕捉復仇滾木。當他倒下時，他扛著的那瓶狂暴藥水便會灑的到處都是。",
+      "levelDetail": {
+        "level1": {
+          "hp": "900",
+          "dps": "236",
+          "hurt": "260",
+          "violent_spells": {
+            "value": "+40%",
+            "name": "狂暴法術",
+            "duration": "8秒",
+            "scope": "5"
+          },
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "990",
+          "dps": "260",
+          "hurt": "286",
+          "violent_spells": {
+            "value": "+40%",
+            "name": "狂暴法術",
+            "duration": "8秒",
+            "scope": "5"
+          },
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "5000"
+        },
+        "level3": {
+          "hp": "1089",
+          "dps": "285",
+          "hurt": "314",
+          "violent_spells": {
+            "value": "+40%",
+            "name": "狂暴法術",
+            "duration": "8秒",
+            "scope": "5"
+          },
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level4": {
+          "hp": "1197",
+          "dps": "313",
+          "hurt": "345",
+          "violent_spells": {
+            "value": "+40%",
+            "name": "狂暴法術",
+            "duration": "8秒",
+            "scope": "5"
+          },
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level5": {
+          "hp": "1314",
+          "dps": "344",
+          "hurt": "379",
+          "violent_spells": {
+            "value": "+40%",
+            "name": "狂暴法術",
+            "duration": "8秒",
+            "scope": "5"
+          },
+          "hit_speed": "1.1秒",
+          "target": "地面目標",
+          "move_speed": "快",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "8",
+        "name": "冰封之巔"
+      },
+      "tags": [
+        "近戰"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "王子",
+      "cost": "5",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/prince.png",
+      "desc": "別被這匹小馬的外表騙了。一但王子發起衝鋒時，你就能知道他有多厲害了。他衝鋒時會對首個目標造成雙倍傷害。",
+      "levelDetail": {
+        "level1": {
+          "hp": "1100",
+          "dps": "160",
+          "hurt": "240",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1210",
+          "dps": "176",
+          "hurt": "264",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "1331",
+          "dps": "193",
+          "hurt": "290",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "1463",
+          "dps": "212",
+          "hurt": "319",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "1609",
+          "dps": "233",
+          "hurt": "350",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "1760",
+          "dps": "256",
+          "hurt": "384",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "1936",
+          "dps": "281",
+          "hurt": "422",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "2123",
+          "dps": "308",
+          "hurt": "463",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "近戰"
+      ]
+    },
+    {
+      "id": "36",
+      "name": "法師",
+      "cost": "5",
+      "rare": "稀有",
+      "type": "軍隊",
+      "img": "images/cards/master.png",
+      "desc": "他是競技場使上最酷炫的男人！他即退對手靠的就是帥氣！哦，對了，還有火球術。",
+      "levelDetail": {
+        "level1": {
+          "hp": "340",
+          "dps": "81",
+          "scope_of_damagey": "130",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "374",
+          "dps": "89",
+          "scope_of_damagey": "143",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "411",
+          "dps": "98",
+          "scope_of_damagey": "157",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "452",
+          "dps": "107",
+          "scope_of_damagey": "172",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "496",
+          "dps": "118",
+          "scope_of_damagey": "189",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "544",
+          "dps": "130",
+          "scope_of_damagey": "208",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "598",
+          "dps": "142",
+          "scope_of_damagey": "228",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "656",
+          "dps": "156",
+          "scope_of_damagey": "250",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "720",
+          "dps": "171",
+          "scope_of_damagey": "275",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "792",
+          "dps": "188",
+          "scope_of_damagey": "302",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "870",
+          "dps": "207",
+          "scope_of_damagey": "332",
+          "hit_speed": "1.6秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "5",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "5",
+        "name": "法術幽谷"
+      },
+      "tags": [
+        "遠程",
+        "範圍"
+      ]
+    },
+    {
+      "id": "37",
+      "name": "亡靈大軍",
+      "cost": "5",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/undead.png",
+      "desc": "六個行動迅速、無護甲保護的飛行進攻戰士。三人為伍，六人成軍！",
+      "levelDetail": {
+        "level1": {
+          "hp": "90",
+          "dps": "40",
+          "hurt": "40",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "99",
+          "dps": "44",
+          "hurt": "44",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "108",
+          "dps": "48",
+          "hurt": "48",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "119",
+          "dps": "53",
+          "hurt": "53",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "131",
+          "dps": "58",
+          "hurt": "58",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "144",
+          "dps": "64",
+          "hurt": "64",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "158",
+          "dps": "70",
+          "hurt": "70",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "173",
+          "dps": "77",
+          "hurt": "77",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "190",
+          "dps": "84",
+          "hurt": "84",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "209",
+          "dps": "93",
+          "hurt": "93",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "230",
+          "dps": "102",
+          "hurt": "102",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "252",
+          "dps": "112",
+          "hurt": "112",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "278",
+          "dps": "123",
+          "hurt": "123",
+          "hit_speed": "1秒",
+          "target": "空中和地面目標",
+          "move_speed": "快",
+          "range": "2",
+          "prepare_time": "1秒",
+          "count": "x6",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": true,
+      "unlock": {
+        "level": "4",
+        "name": "皮卡超人樂園"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "38",
+      "name": "哥布林小屋",
+      "cost": "5",
+      "rare": "稀有",
+      "type": "建築",
+      "img": "images/cards/goblin_hut.png",
+      "desc": "建築，能產生哥布林投矛手。不過千萬別往裡瞧，相信我，你不會知道他們是如何生產出來的。",
+      "levelDetail": {
+        "level1": {
+          "hp": "700",
+          "goblin_spear_hand_level": {
+            "value": "3",
+            "name": "哥布林投矛手",
+            "hp": "62",
+            "hurt": "29",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "770",
+          "goblin_spear_hand_level": {
+            "value": "4",
+            "name": "哥布林投矛手",
+            "hp": "69",
+            "hurt": "31",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "847",
+          "goblin_spear_hand_level": {
+            "value": "5",
+            "name": "哥布林投矛手",
+            "hp": "75",
+            "hurt": "35",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "931",
+          "goblin_spear_hand_level": {
+            "value": "6",
+            "name": "哥布林投矛手",
+            "hp": "83",
+            "hurt": "38",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "1022",
+          "goblin_spear_hand_level": {
+            "value": "7",
+            "name": "哥布林投矛手",
+            "hp": "91",
+            "hurt": "42",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "1120",
+          "goblin_spear_hand_level": {
+            "value": "8",
+            "name": "哥布林投矛手",
+            "hp": "100",
+            "hurt": "46",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1232",
+          "goblin_spear_hand_level": {
+            "value": "9",
+            "name": "哥布林投矛手",
+            "hp": "110",
+            "hurt": "50",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "1351",
+          "goblin_spear_hand_level": {
+            "value": "10",
+            "name": "哥布林投矛手",
+            "hp": "121",
+            "hurt": "55",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "1484",
+          "goblin_spear_hand_level": {
+            "value": "11",
+            "name": "哥布林投矛手",
+            "hp": "133",
+            "hurt": "61",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "1631",
+          "goblin_spear_hand_level": {
+            "value": "12",
+            "name": "哥布林投矛手",
+            "hp": "146",
+            "hurt": "67",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "1792",
+          "goblin_spear_hand_level": {
+            "value": "13",
+            "name": "哥布林投矛手",
+            "hp": "160",
+            "hurt": "74",
+            "hit_speed": "1.3秒",
+            "move_speed": "極快",
+            "target": "空中和地面目標"
+          },
+          "speed_troops": "4.9秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "1",
+        "name": "哥布林競技場"
+      },
+      "tags": []
+    },
+    {
+      "id": "39",
+      "name": "炸彈塔",
+      "cost": "5",
+      "rare": "稀有",
+      "type": "建築",
+      "img": "images/cards/bomb_ tower.png",
+      "desc": "防禦建築，裡面住著一個炸彈兵，會對任何蠢到接近他的笨蛋造成範為傷害。",
+      "levelDetail": {
+        "level1": {
+          "hp": "950",
+          "dps": "62",
+          "scope_of_damagey": "100",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1045",
+          "dps": "68",
+          "scope_of_damagey": "110",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "1149",
+          "dps": "75",
+          "scope_of_damagey": "121",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "1263",
+          "dps": "83",
+          "scope_of_damagey": "133",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "1387",
+          "dps": "91",
+          "scope_of_damagey": "146",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "1520",
+          "dps": "100",
+          "scope_of_damagey": "160",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1673",
+          "dps": "110",
+          "scope_of_damagey": "176",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "1835",
+          "dps": "120",
+          "scope_of_damagey": "193",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "2016",
+          "dps": "132",
+          "scope_of_damagey": "212",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "2217",
+          "dps": "145",
+          "scope_of_damagey": "233",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "2436",
+          "dps": "160",
+          "scope_of_damagey": "256",
+          "hit_speed": "1.6秒",
+          "target": "地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "2",
+        "name": "埋骨深淵"
+      },
+      "tags": [
+        "範圍"
+      ]
+    },
+    {
+      "id": "40",
+      "name": "聖水收集器",
+      "cost": "5",
+      "rare": "稀有",
+      "type": "建築",
+      "img": "images/cards/holy_water.png",
+      "desc": "錢生錢，聖水生聖水。",
+      "levelDetail": {
+        "level1": {
+          "hp": "580",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "638",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "701",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "771",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "846",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "928",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1020",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "1119",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "1229",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "1351",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "1484",
+          "production_speed": "9.8秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "100000"
+        }
+      },
+      "target": "x",
+      "canfly": false,
+      "unlock": {
+        "level": "6",
+        "name": "建築工人工坊"
+      },
+      "tags": []
+    },
+    {
+      "id": "41",
+      "name": "野蠻人",
+      "cost": "5",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/barbarian.png",
+      "desc": "四個近戰戰士，他們鬍子邋遢，脾氣更是暴躁。",
+      "levelDetail": {
+        "level1": {
+          "hp": "300",
+          "dps": "50",
+          "hurt": "75",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "330",
+          "dps": "54",
+          "hurt": "82",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "363",
+          "dps": "60",
+          "hurt": "90",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "399",
+          "dps": "66",
+          "hurt": "99",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "438",
+          "dps": "72",
+          "hurt": "109",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "480",
+          "dps": "80",
+          "hurt": "120",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "528",
+          "dps": "88",
+          "hurt": "132",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "579",
+          "dps": "96",
+          "hurt": "144",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "636",
+          "dps": "106",
+          "hurt": "159",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "699",
+          "dps": "116",
+          "hurt": "174",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "768",
+          "dps": "128",
+          "hurt": "192",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "843",
+          "dps": "140",
+          "hurt": "210",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "927",
+          "dps": "154",
+          "hurt": "231",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "count": "x4",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "3",
+        "name": "野蠻人擂台"
+      },
+      "tags": [
+        "近戰"
+      ]
+    },
+    {
+      "id": "42",
+      "name": "女巫",
+      "cost": "5",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/witch.png",
+      "desc": "不僅能召換骷髏部隊，還可以發射破壞光束，只可惜那對粉光電眼無法射出雷射。",
+      "levelDetail": {
+        "level1": {
+          "hp": "500",
+          "dps": "70",
+          "scope_of_damagey": "49",
+          "skeletons_level": {
+            "value": "6",
+            "name": "骷髏兵",
+            "hp": "51",
+            "hurt": "51",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "7.5秒",
+          "hit_speed": "0.7秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "550",
+          "dps": "75",
+          "scope_of_damagey": "53",
+          "skeletons_level": {
+            "value": "7",
+            "name": "骷髏兵",
+            "hp": "56",
+            "hurt": "56",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "7.5秒",
+          "hit_speed": "0.7秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "605",
+          "dps": "84",
+          "scope_of_damagey": "59",
+          "skeletons_level": {
+            "value": "8",
+            "name": "骷髏兵",
+            "hp": "61",
+            "hurt": "61",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "7.5秒",
+          "hit_speed": "0.7秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "665",
+          "dps": "92",
+          "scope_of_damagey": "65",
+          "skeletons_level": {
+            "value": "9",
+            "name": "骷髏兵",
+            "hp": "67",
+            "hurt": "67",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "7.5秒",
+          "hit_speed": "0.7秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "730",
+          "dps": "101",
+          "scope_of_damagey": "71",
+          "skeletons_level": {
+            "value": "10",
+            "name": "骷髏兵",
+            "hp": "74",
+            "hurt": "74",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "7.5秒",
+          "hit_speed": "0.7秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "800",
+          "dps": "111",
+          "scope_of_damagey": "78",
+          "skeletons_level": {
+            "value": "11",
+            "name": "骷髏兵",
+            "hp": "81",
+            "hurt": "81",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "7.5秒",
+          "hit_speed": "0.7秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "880",
+          "dps": "122",
+          "scope_of_damagey": "86",
+          "skeletons_level": {
+            "value": "12",
+            "name": "骷髏兵",
+            "hp": "89",
+            "hurt": "89",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "7.5秒",
+          "hit_speed": "0.7秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "965",
+          "dps": "134",
+          "scope_of_damagey": "94",
+          "skeletons_level": {
+            "value": "13",
+            "name": "骷髏兵",
+            "hp": "98",
+            "hurt": "98",
+            "hit_speed": "1秒",
+            "move_speed": "快",
+            "target": "地面目標"
+          },
+          "speed_troops": "7.5秒",
+          "hit_speed": "0.7秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "遠程",
+        "範圍"
+      ]
+    },
+    {
+      "id": "43",
+      "name": "氣球兵",
+      "cost": "5",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/balloon_soldiers.png",
+      "desc": "這些氣球雖然非常漂亮，但您絕不想看到他們列隊出現在您的領空。他們會投擲強大的炸彈，被擊落後將摧毀並造成範為傷害。",
+      "levelDetail": {
+        "level1": {
+          "hp": "1050",
+          "dps": "200",
+          "hurt": "600",
+          "additional_damage_when_death": "100",
+          "hit_speed": "3秒",
+          "target": "建築",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1155",
+          "dps": "220",
+          "hurt": "660",
+          "additional_damage_when_death": "110",
+          "hit_speed": "3秒",
+          "target": "建築",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "1270",
+          "dps": "242",
+          "hurt": "726",
+          "additional_damage_when_death": "121",
+          "hit_speed": "3秒",
+          "target": "建築",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "1396",
+          "dps": "266",
+          "hurt": "798",
+          "additional_damage_when_death": "133",
+          "hit_speed": "3秒",
+          "target": "建築",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "1533",
+          "dps": "292",
+          "hurt": "876",
+          "additional_damage_when_death": "146",
+          "hit_speed": "3秒",
+          "target": "建築",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "1680",
+          "dps": "320",
+          "hurt": "960",
+          "additional_damage_when_death": "160",
+          "hit_speed": "3秒",
+          "target": "建築",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "1848",
+          "dps": "352",
+          "hurt": "1056",
+          "additional_damage_when_death": "176",
+          "hit_speed": "3秒",
+          "target": "建築",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "2026",
+          "dps": "386",
+          "hurt": "1158",
+          "additional_damage_when_death": "193",
+          "hit_speed": "3秒",
+          "target": "建築",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "b",
+      "canfly": true,
+      "unlock": {
+        "level": "2",
+        "name": "埋骨深淵"
+      },
+      "tags": [
+        "近戰",
+        "範圍"
+      ]
+    },
+    {
+      "id": "44",
+      "name": "巨人",
+      "cost": "5",
+      "rare": "稀有",
+      "type": "軍隊",
+      "img": "images/cards/giant.png",
+      "desc": "巨人行動緩慢，但是耐擊打。他專門攻擊建築，是名符其實的人肉攻城器！",
+      "levelDetail": {
+        "level1": {
+          "hp": "2000",
+          "dps": "84",
+          "hurt": "126",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "2200",
+          "dps": "92",
+          "hurt": "138",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "2420",
+          "dps": "101",
+          "hurt": "152",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "2660",
+          "dps": "111",
+          "hurt": "167",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "2920",
+          "dps": "122",
+          "hurt": "183",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "3200",
+          "dps": "134",
+          "hurt": "201",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "3520",
+          "dps": "147",
+          "hurt": "221",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "3860",
+          "dps": "162",
+          "hurt": "243",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "4240",
+          "dps": "178",
+          "hurt": "267",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "4660",
+          "dps": "195",
+          "hurt": "293",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "5120",
+          "dps": "214",
+          "hurt": "322",
+          "hit_speed": "1.8秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "b",
+      "canfly": false,
+      "unlock": {
+        "level": "0",
+        "name": "訓練營"
+      },
+      "tags": [
+        "近戰",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "45",
+      "name": "地獄之塔",
+      "cost": "5",
+      "rare": "稀有",
+      "type": "建築",
+      "img": "images/cards/hell_tower.png",
+      "desc": "防禦建築，對目標造成的火焰傷害會隨著時間而遞增。再大再強和的敵人到了它面前都會灰飛煙滅！",
+      "levelDetail": {
+        "level1": {
+          "hp": "850",
+          "dps": "50-1000",
+          "hurt": "20-400",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "935",
+          "dps": "55-1100",
+          "hurt": "22-440",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "1028",
+          "dps": "60-1210",
+          "hurt": "24-484",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "1130",
+          "dps": "65-1330",
+          "hurt": "26-532",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "1241",
+          "dps": "72-1460",
+          "hurt": "29-584",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "1360",
+          "dps": "80-1600",
+          "hurt": "32-640",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1496",
+          "dps": "87-1760",
+          "hurt": "35-704",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "1639",
+          "dps": "95-1930",
+          "hurt": "38-772",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "1800",
+          "dps": "105-2120",
+          "hurt": "42-848",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "1978",
+          "dps": "115-2330",
+          "hurt": "46-932",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "2173",
+          "dps": "127-2560",
+          "hurt": "51-1024",
+          "hit_speed": "0.4秒",
+          "target": "空中和地面目標",
+          "range": "6",
+          "prepare_time": "1秒",
+          "duration": "40秒",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "4",
+        "name": "皮卡超人樂園"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "46",
+      "name": "骷髏巨人",
+      "cost": "6",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/giant_skeleton.png",
+      "desc": "骷髏的個頭越大，炸彈的威力就越強。骷髏巨人攜帶的炸彈會在它陣亡後爆炸。",
+      "levelDetail": {
+        "level1": {
+          "hp": "2000",
+          "dps": "80",
+          "hurt": "120",
+          "additional_damage_when_death": "720",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "2200",
+          "dps": "88",
+          "hurt": "132",
+          "additional_damage_when_death": "792",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "2420",
+          "dps": "96",
+          "hurt": "145",
+          "additional_damage_when_death": "871",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "2660",
+          "dps": "106",
+          "hurt": "159",
+          "additional_damage_when_death": "957",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "2920",
+          "dps": "116",
+          "hurt": "175",
+          "additional_damage_when_death": "1051",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "3200",
+          "dps": "128",
+          "hurt": "192",
+          "additional_damage_when_death": "1152",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "3520",
+          "dps": "140",
+          "hurt": "211",
+          "additional_damage_when_death": "1267",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "3860",
+          "dps": "154",
+          "hurt": "231",
+          "additional_damage_when_death": "1389",
+          "hit_speed": "1.5秒",
+          "target": "地面目標",
+          "move_speed": "中等",
+          "scope": "近戰",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "2",
+        "name": "埋骨深淵"
+      },
+      "tags": [
+        "近戰",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "47",
+      "name": "皇家巨人",
+      "cost": "6",
+      "rare": "普通",
+      "type": "軍隊",
+      "img": "images/cards/royal_giants.png",
+      "desc": "用手中的巨型加農炮摧毀敵方建築是皇家巨人的職責；打理好自己雜亂的金色鬍鬚則是皇家巨人的愛好。",
+      "levelDetail": {
+        "level1": {
+          "hp": "1200",
+          "dps": "52",
+          "hurt": "78",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1320",
+          "dps": "56",
+          "hurt": "85",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "5"
+        },
+        "level3": {
+          "hp": "1452",
+          "dps": "62",
+          "hurt": "94",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "20"
+        },
+        "level4": {
+          "hp": "1596",
+          "dps": "68",
+          "hurt": "103",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "50"
+        },
+        "level5": {
+          "hp": "1752",
+          "dps": "75",
+          "hurt": "113",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "150"
+        },
+        "level6": {
+          "hp": "1920",
+          "dps": "82",
+          "hurt": "124",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level7": {
+          "hp": "2112",
+          "dps": "88",
+          "hurt": "132",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "1000"
+        },
+        "level8": {
+          "hp": "2316",
+          "dps": "96",
+          "hurt": "144",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level9": {
+          "hp": "2544",
+          "dps": "106",
+          "hurt": "159",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level10": {
+          "hp": "2796",
+          "dps": "116",
+          "hurt": "174",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level11": {
+          "hp": "3072",
+          "dps": "128",
+          "hurt": "192",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level12": {
+          "hp": "3372",
+          "dps": "140",
+          "hurt": "210",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level13": {
+          "hp": "3708",
+          "dps": "154",
+          "hurt": "231",
+          "hit_speed": "1.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "6.5",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "b",
+      "canfly": false,
+      "unlock": {
+        "level": "7",
+        "name": "皇家競技場"
+      },
+      "tags": [
+        "遠程",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "48",
+      "name": "電磁炮",
+      "cost": "6",
+      "rare": "傳奇",
+      "type": "軍隊",
+      "img": "images/cards/guns.png",
+      "desc": "電磁炮雖然看上去就是木頭輪子上放了些鐵線圈，但它可以充能並造成巨量範圍傷害。她的字典裡可沒有傷害溢出這個詞。",
+      "levelDetail": {
+        "level1": {
+          "hp": "1200",
+          "dps": "260",
+          "scope_of_damagey": "1300",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1320",
+          "dps": "286",
+          "scope_of_damagey": "1430",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "5000"
+        },
+        "level3": {
+          "hp": "1452",
+          "dps": "314",
+          "scope_of_damagey": "1573",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level4": {
+          "hp": "1593",
+          "dps": "345",
+          "scope_of_damagey": "1729",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level5": {
+          "hp": "1752",
+          "dps": "379",
+          "scope_of_damagey": "1898",
+          "hit_speed": "5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "range": "4.5",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "6",
+        "name": "建築工人工坊"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "49",
+      "name": "巨石投手",
+      "cost": "6",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/giant_catapult.png",
+      "desc": "這個藍皮大個子一輩子只做兩件簡單的事：豪飲暗黑重油、投擲巨型岩石。他扔出的巨石會對目標單位與彈射路徑上的敵人造成雙殺！",
+      "levelDetail": {
+        "level1": {
+          "hp": "1300",
+          "dps": "80",
+          "scope_of_damagey": "200",
+          "hit_speed": "2.5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1430",
+          "dps": "88",
+          "scope_of_damagey": "220",
+          "hit_speed": "2.5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "1573",
+          "dps": "96",
+          "scope_of_damagey": "242",
+          "hit_speed": "2.5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "1729",
+          "dps": "106",
+          "scope_of_damagey": "266",
+          "hit_speed": "2.5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "1898",
+          "dps": "116",
+          "scope_of_damagey": "292",
+          "hit_speed": "2.5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "2080",
+          "dps": "128",
+          "scope_of_damagey": "320",
+          "hit_speed": "2.5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "2288",
+          "dps": "140",
+          "scope_of_damagey": "352",
+          "hit_speed": "2.5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "2509",
+          "dps": "154",
+          "scope_of_damagey": "386",
+          "hit_speed": "2.5秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "5",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "8",
+        "name": "冰封之巔"
+      },
+      "tags": [
+        "遠程",
+        "範圍",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "50",
+      "name": "X連弩",
+      "cost": "6",
+      "rare": "史詩",
+      "type": "建築",
+      "img": "images/cards/liannu.png",
+      "desc": "你的皇家塔還蠻不錯的，但如果是從競技場這裡，用X連弩把你的皇家塔打暴，那可就好笑了...",
+      "levelDetail": {
+        "level1": {
+          "hp": "1000",
+          "dps": "66",
+          "hurt": "20",
+          "hit_speed": "0.3秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "40秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1100",
+          "dps": "73",
+          "hurt": "22",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "40秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "1210",
+          "dps": "80",
+          "hurt": "24",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "40秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "1330",
+          "dps": "86",
+          "hurt": "26",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "40秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "1460",
+          "dps": "96",
+          "hurt": "29",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "40秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "1600",
+          "dps": "106",
+          "hurt": "32",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "40秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "1760",
+          "dps": "116",
+          "hurt": "35",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "40秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "1930",
+          "dps": "126",
+          "hurt": "38",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "range": "11.5",
+          "prepare_time": "4秒",
+          "duration": "40秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "3",
+        "name": "野蠻人擂台"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "51",
+      "name": "火箭",
+      "cost": "6",
+      "rare": "稀有",
+      "type": "法術",
+      "img": "images/cards/rocket.png",
+      "desc": "在小範圍內造成大量傷害，炸起來的樣子只有「賞心悅目」四個字可以形容。對皇家塔的傷害會大打折扣。",
+      "levelDetail": {
+        "level1": {
+          "scope_of_damagey": "700",
+          "tower_of_damagey": "280",
+          "scope": "2",
+          "money": "0"
+        },
+        "level2": {
+          "scope_of_damagey": "770",
+          "tower_of_damagey": "308",
+          "scope": "2",
+          "money": "50"
+        },
+        "level3": {
+          "scope_of_damagey": "847",
+          "tower_of_damagey": "339",
+          "scope": "2",
+          "money": "150"
+        },
+        "level4": {
+          "scope_of_damagey": "931",
+          "tower_of_damagey": "373",
+          "scope": "2",
+          "money": "400"
+        },
+        "level5": {
+          "scope_of_damagey": "1022",
+          "tower_of_damagey": "409",
+          "scope": "2",
+          "money": "1000"
+        },
+        "level6": {
+          "scope_of_damagey": "1120",
+          "tower_of_damagey": "448",
+          "scope": "2",
+          "money": "2000"
+        },
+        "level7": {
+          "scope_of_damagey": "1232",
+          "tower_of_damagey": "493",
+          "scope": "2",
+          "money": "4000"
+        },
+        "level8": {
+          "scope_of_damagey": "1351",
+          "tower_of_damagey": "541",
+          "scope": "2",
+          "money": "8000"
+        },
+        "level9": {
+          "scope_of_damagey": "1484",
+          "tower_of_damagey": "594",
+          "scope": "2",
+          "money": "20000"
+        },
+        "level10": {
+          "scope_of_damagey": "1631",
+          "tower_of_damagey": "653",
+          "scope": "2",
+          "money": "50000"
+        },
+        "level11": {
+          "scope_of_damagey": "1792",
+          "tower_of_damagey": "717",
+          "scope": "2",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "3",
+        "name": "野蠻人擂台"
+      },
+      "tags": []
+    },
+    {
+      "id": "52",
+      "name": "雷電法術",
+      "cost": "6",
+      "rare": "史詩",
+      "type": "法術",
+      "img": "images/cards/lightning_spell.png",
+      "desc": "雷電法術最多可命中目標區域內3個生命值最高的敵軍或建築。對皇家塔的傷害會大打折扣。",
+      "levelDetail": {
+        "level1": {
+          "count": "x3",
+          "hurt": "650",
+          "tower_of_damagey": "260",
+          "duration": "1.5秒",
+          "scope": "3.5",
+          "money": "0"
+        },
+        "level2": {
+          "count": "x3",
+          "hurt": "715",
+          "tower_of_damagey": "286",
+          "duration": "1.5秒",
+          "scope": "3.5",
+          "money": "400"
+        },
+        "level3": {
+          "count": "x3",
+          "hurt": "786",
+          "tower_of_damagey": "15",
+          "duration": "1.5秒",
+          "scope": "3.5",
+          "money": "2000"
+        },
+        "level4": {
+          "count": "x3",
+          "hurt": "864",
+          "tower_of_damagey": "346",
+          "duration": "1.5秒",
+          "scope": "3.5",
+          "money": "4000"
+        },
+        "level5": {
+          "count": "x3",
+          "hurt": "949",
+          "tower_of_damagey": "380",
+          "duration": "1.5秒",
+          "scope": "3.5",
+          "money": "8000"
+        },
+        "level6": {
+          "count": "x3",
+          "hurt": "1040",
+          "tower_of_damagey": "416",
+          "duration": "1.5秒",
+          "scope": "3.5",
+          "money": "20000"
+        },
+        "level7": {
+          "count": "x3",
+          "hurt": "1144",
+          "tower_of_damagey": "458",
+          "duration": "1.5秒",
+          "scope": "3.5",
+          "money": "50000"
+        },
+        "level8": {
+          "count": "x3",
+          "hurt": "1254",
+          "tower_of_damagey": "502",
+          "duration": "1.5秒",
+          "scope": "3.5",
+          "money": "100000"
+        }
+      },
+      "target": "",
+      "canfly": false,
+      "unlock": {
+        "level": "1",
+        "name": "哥布林競技場"
+      },
+      "tags": []
+    },
+    {
+      "id": "53",
+      "name": "野蠻人小屋",
+      "cost": "7",
+      "rare": "稀有",
+      "type": "建築",
+      "img": "images/cards/barbarian_huts.png",
+      "desc": "軍隊建築，會定時地放出野蠻人攻擊敵軍。野蠻人出征！",
+      "levelDetail": {
+        "level1": {
+          "hp": "1100",
+          "barbarian_level": {
+            "value": "3",
+            "name": "野蠻人",
+            "hp": "363",
+            "hurt": "90",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "1210",
+          "barbarian_level": {
+            "value": "4",
+            "name": "野蠻人",
+            "hp": "399",
+            "hurt": "99",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "1331",
+          "barbarian_level": {
+            "value": "5",
+            "name": "野蠻人",
+            "hp": "438",
+            "hurt": "109",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "1463",
+          "barbarian_level": {
+            "value": "6",
+            "name": "野蠻人",
+            "hp": "480",
+            "hurt": "120",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "1606",
+          "barbarian_level": {
+            "value": "7",
+            "name": "野蠻人",
+            "hp": "528",
+            "hurt": "132",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "1760",
+          "barbarian_level": {
+            "value": "8",
+            "name": "野蠻人",
+            "hp": "579",
+            "hurt": "144",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "1936",
+          "barbarian_level": {
+            "value": "9",
+            "name": "野蠻人",
+            "hp": "636",
+            "hurt": "159",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "2123",
+          "barbarian_level": {
+            "value": "10",
+            "name": "野蠻人",
+            "hp": "699",
+            "hurt": "174",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "2332",
+          "barbarian_level": {
+            "value": "11",
+            "name": "野蠻人",
+            "hp": "768",
+            "hurt": "192",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "2563",
+          "barbarian_level": {
+            "value": "12",
+            "name": "野蠻人",
+            "hp": "843",
+            "hurt": "210",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "2816",
+          "barbarian_level": {
+            "value": "13",
+            "name": "野蠻人",
+            "hp": "927",
+            "hurt": "231",
+            "hit_speed": "1.5秒",
+            "move_speed": "中等",
+            "target": "地面目標"
+          },
+          "speed_troops": "14秒",
+          "prepare_time": "1秒",
+          "duration": "1分鐘 0秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "3",
+        "name": "野蠻人擂台"
+      },
+      "tags": []
+    },
+    {
+      "id": "54",
+      "name": "皮卡超人",
+      "cost": "7",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/pickup_superman.png",
+      "desc": "身披重甲的近戰勇士，雖然他搖擺著身體，動作有點緩慢，但攻擊力極高。",
+      "levelDetail": {
+        "level1": {
+          "hp": "2600",
+          "dps": "269",
+          "hurt": "485",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "2860",
+          "dps": "296",
+          "hurt": "533",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "3146",
+          "dps": "325",
+          "hurt": "586",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "3458",
+          "dps": "358",
+          "hurt": "645",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "3796",
+          "dps": "393",
+          "hurt": "708",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "4160",
+          "dps": "431",
+          "hurt": "776",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "4576",
+          "dps": "473",
+          "hurt": "853",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "5018",
+          "dps": "520",
+          "hurt": "936",
+          "hit_speed": "1.8秒",
+          "target": "地面目標",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "100000"
+        }
+      },
+      "target": "g",
+      "canfly": false,
+      "unlock": {
+        "level": "4",
+        "name": "皮卡超人樂園"
+      },
+      "tags": [
+        "近戰",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "55",
+      "name": "熔岩獵犬",
+      "cost": "7",
+      "rare": "傳奇",
+      "type": "軍隊",
+      "img": "images/cards/flying_dog.png",
+      "desc": "熔岩獵犬是一支專門攻擊建築物的飛行巨獸。熔岩幼犬的個頭倒沒那麼威武，不過牠們脾氣暴躁，會攻擊任何單位。",
+      "levelDetail": {
+        "level1": {
+          "hp": "3000",
+          "dps": "34",
+          "hurt": "45",
+          "small_dog_level": {
+            "value": "1",
+            "name": "熔岩幼犬",
+            "hp": "180",
+            "hurt": "45",
+            "hit_speed": "1秒",
+            "move_speed": "中等",
+            "target": "空中和地面目標"
+          },
+          "hit_speed": "1.3秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "2",
+          "prepare_time": "1秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "3300",
+          "dps": "37",
+          "hurt": "49",
+          "small_dog_level": {
+            "value": "2",
+            "name": "熔岩幼犬",
+            "hp": "198",
+            "hurt": "49",
+            "hit_speed": "1秒",
+            "move_speed": "中等",
+            "target": "空中和地面目標"
+          },
+          "hit_speed": "1.3秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "2",
+          "prepare_time": "1秒",
+          "money": "5000"
+        },
+        "level3": {
+          "hp": "3630",
+          "dps": "41",
+          "hurt": "54",
+          "small_dog_level": {
+            "value": "3",
+            "name": "熔岩幼犬",
+            "hp": "217",
+            "hurt": "54",
+            "hit_speed": "1秒",
+            "move_speed": "中等",
+            "target": "空中和地面目標"
+          },
+          "hit_speed": "1.3秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "2",
+          "prepare_time": "1秒",
+          "money": "20000"
+        },
+        "level4": {
+          "hp": "3990",
+          "dps": "45",
+          "hurt": "59",
+          "small_dog_level": {
+            "value": "4",
+            "name": "熔岩幼犬",
+            "hp": "239",
+            "hurt": "59",
+            "hit_speed": "1秒",
+            "move_speed": "中等",
+            "target": "空中和地面目標"
+          },
+          "hit_speed": "1.3秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "2",
+          "prepare_time": "1秒",
+          "money": "50000"
+        },
+        "level5": {
+          "hp": "4380",
+          "dps": "50",
+          "hurt": "65",
+          "small_dog_level": {
+            "value": "5",
+            "name": "熔岩幼犬",
+            "hp": "263",
+            "hurt": "65",
+            "hit_speed": "1秒",
+            "move_speed": "中等",
+            "target": "空中和地面目標"
+          },
+          "hit_speed": "1.3秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "range": "2",
+          "prepare_time": "1秒",
+          "money": "100000"
+        }
+      },
+      "target": "b",
+      "canfly": true,
+      "unlock": {
+        "level": "4",
+        "name": "皮卡超人樂園"
+      },
+      "tags": [
+        "遠程",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "56",
+      "name": "戈侖石人",
+      "cost": "8",
+      "rare": "史詩",
+      "type": "軍隊",
+      "img": "images/cards/stone_man.png",
+      "desc": "緩慢但強韌的戈侖石人只會攻擊建築物。被摧毀後他們會分裂成兩個小戈侖石人，並造成範為傷害！",
+      "levelDetail": {
+        "level1": {
+          "hp": "3150",
+          "dps": "74",
+          "hurt": "186",
+          "additional_damage_when_death": "186",
+          "small_stone": {
+            "value": "1",
+            "name": "小戈侖石人",
+            "hp": "630",
+            "hurt": "37",
+            "additional_damage_when_death": "37",
+            "hit_speed": "2.5",
+            "move_speed": "慢",
+            "target": "建築"
+          },
+          "hit_speed": "2.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "3465",
+          "dps": "81",
+          "hurt": "204",
+          "additional_damage_when_death": "204",
+          "small_stone": {
+            "value": "2",
+            "name": "小戈侖石人",
+            "hp": "693",
+            "hurt": "40",
+            "additional_damage_when_death": "40",
+            "hit_speed": "2.5",
+            "move_speed": "慢",
+            "target": "建築"
+          },
+          "hit_speed": "2.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "400"
+        },
+        "level3": {
+          "hp": "3811",
+          "dps": "90",
+          "hurt": "225",
+          "additional_damage_when_death": "225",
+          "small_stone": {
+            "value": "3",
+            "name": "小戈侖石人",
+            "hp": "762",
+            "hurt": "44",
+            "additional_damage_when_death": "44",
+            "hit_speed": "2.5",
+            "move_speed": "慢",
+            "target": "建築"
+          },
+          "hit_speed": "2.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "2000"
+        },
+        "level4": {
+          "hp": "4189",
+          "dps": "98",
+          "hurt": "247",
+          "additional_damage_when_death": "246",
+          "small_stone": {
+            "value": "4",
+            "name": "小戈侖石人",
+            "hp": "837",
+            "hurt": "49",
+            "additional_damage_when_death": "49",
+            "hit_speed": "2.5",
+            "move_speed": "慢",
+            "target": "建築"
+          },
+          "hit_speed": "2.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "4000"
+        },
+        "level5": {
+          "hp": "4599",
+          "dps": "108",
+          "hurt": "271",
+          "additional_damage_when_death": "270",
+          "small_stone": {
+            "value": "5",
+            "name": "小戈侖石人",
+            "hp": "919",
+            "hurt": "54",
+            "additional_damage_when_death": "54",
+            "hit_speed": "2.5",
+            "move_speed": "慢",
+            "target": "建築"
+          },
+          "hit_speed": "2.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "8000"
+        },
+        "level6": {
+          "hp": "5040",
+          "dps": "118",
+          "hurt": "297",
+          "additional_damage_when_death": "297",
+          "small_stone": {
+            "value": "6",
+            "name": "小戈侖石人",
+            "hp": "1008",
+            "hurt": "59",
+            "additional_damage_when_death": "59",
+            "hit_speed": "2.5",
+            "move_speed": "慢",
+            "target": "建築"
+          },
+          "hit_speed": "2.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "20000"
+        },
+        "level7": {
+          "hp": "5544",
+          "dps": "130",
+          "hurt": "327",
+          "additional_damage_when_death": "327",
+          "small_stone": {
+            "value": "7",
+            "name": "小戈侖石人",
+            "hp": "1108",
+            "hurt": "65",
+            "additional_damage_when_death": "65",
+            "hit_speed": "2.5",
+            "move_speed": "慢",
+            "target": "建築"
+          },
+          "hit_speed": "2.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "50000"
+        },
+        "level8": {
+          "hp": "6079",
+          "dps": "143",
+          "hurt": "358",
+          "additional_damage_when_death": "358",
+          "small_stone": {
+            "value": "8",
+            "name": "小戈侖石人",
+            "hp": "1215",
+            "hurt": "71",
+            "additional_damage_when_death": "71",
+            "hit_speed": "2.5",
+            "move_speed": "慢",
+            "target": "建築"
+          },
+          "hit_speed": "2.5秒",
+          "target": "建築",
+          "move_speed": "慢",
+          "scope": "近戰",
+          "prepare_time": "3秒",
+          "money": "100000"
+        }
+      },
+      "target": "b",
+      "canfly": false,
+      "unlock": {
+        "level": "6",
+        "name": "建築工人工坊"
+      },
+      "tags": [
+        "近戰",
+        "肉盾"
+      ]
+    },
+    {
+      "id": "57",
+      "name": "三個火槍手",
+      "cost": "9",
+      "rare": "稀有",
+      "type": "軍隊",
+      "img": "images/cards/three_gunmen.png",
+      "desc": "三人一組，自立自強的霹靂嬌娃，她們為了正義和榮譽而戰。可千萬別失禮，如果惹到她們，可能說你自己找地雷踩！",
+      "levelDetail": {
+        "level1": {
+          "hp": "340",
+          "dps": "90",
+          "hurt": "100",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "0"
+        },
+        "level2": {
+          "hp": "374",
+          "dps": "100",
+          "hurt": "110",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50"
+        },
+        "level3": {
+          "hp": "411",
+          "dps": "110",
+          "hurt": "121",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "150"
+        },
+        "level4": {
+          "hp": "452",
+          "dps": "120",
+          "hurt": "133",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "400"
+        },
+        "level5": {
+          "hp": "496",
+          "dps": "132",
+          "hurt": "146",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "1000"
+        },
+        "level6": {
+          "hp": "544",
+          "dps": "145",
+          "hurt": "160",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "2000"
+        },
+        "level7": {
+          "hp": "598",
+          "dps": "160",
+          "hurt": "176",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "4000"
+        },
+        "level8": {
+          "hp": "656",
+          "dps": "175",
+          "hurt": "193",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "8000"
+        },
+        "level9": {
+          "hp": "720",
+          "dps": "192",
+          "hurt": "212",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "20000"
+        },
+        "level10": {
+          "hp": "792",
+          "dps": "211",
+          "hurt": "233",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "50000"
+        },
+        "level11": {
+          "hp": "870",
+          "dps": "232",
+          "hurt": "256",
+          "hit_speed": "1.1秒",
+          "target": "空中和地面目標",
+          "move_speed": "中等",
+          "range": "6",
+          "prepare_time": "1秒",
+          "count": "x3",
+          "money": "100000"
+        }
+      },
+      "target": "ga",
+      "canfly": false,
+      "unlock": {
+        "level": "7",
+        "name": "皇家競技場"
+      },
+      "tags": [
+        "遠程"
+      ]
+    },
+    {
+      "id": "58",
+      "name": "鏡像法術",
+      "cost": "?",
+      "rare": "史詩",
+      "type": "法術",
+      "img": "images/cards/mirror.png",
+      "desc": "花額外1點聖水複製您用的上一張牌",
+      "levelDetail": {
+        "level1": {
+          "copy_normal_level": "6",
+          "copy_rare_level": "4",
+          "copy_epic_level": "1",
+          "copy_legend_level": "1",
+          "money": "0"
+        },
+        "level2": {
+          "copy_normal_level": "7",
+          "copy_rare_level": "5",
+          "copy_epic_level": "2",
+          "copy_legend_level": "1",
+          "money": "400"
+        },
+        "level3": {
+          "copy_normal_level": "8",
+          "copy_rare_level": "6",
+          "copy_epic_level": "3",
+          "copy_legend_level": "1",
+          "money": "2000"
+        },
+        "level4": {
+          "copy_normal_level": "9",
+          "copy_rare_level": "7",
+          "copy_epic_level": "4",
+          "copy_legend_level": "1",
+          "money": "4000"
+        },
+        "level5": {
+          "copy_normal_level": "10",
+          "copy_rare_level": "8",
+          "copy_epic_level": "5",
+          "copy_legend_level": "2",
+          "money": "8000"
+        },
+        "level6": {
+          "copy_normal_level": "11",
+          "copy_rare_level": "9",
+          "copy_epic_level": "6",
+          "copy_legend_level": "3",
+          "money": "20000"
+        },
+        "level7": {
+          "copy_normal_level": "12",
+          "copy_rare_level": "10",
+          "copy_epic_level": "7",
+          "copy_legend_level": "4",
+          "money": "50000"
+        },
+        "level8": {
+          "copy_normal_level": "13",
+          "copy_rare_level": "11",
+          "copy_epic_level": "8",
+          "copy_legend_level": "5",
+          "money": "100000"
+        }
+      },
+      "target": "x",
+      "canfly": false,
+      "unlock": {
+        "level": "5",
+        "name": "法術幽谷"
+      },
+      "tags": []
+    }
+  ]
+}

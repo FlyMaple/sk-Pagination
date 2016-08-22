@@ -1,0 +1,98 @@
+@import 'compass/css3';
+
+$page-item-border-color: #cacaca;
+$page-item-border-radius-size: 4px;
+$page-item-color: #4898bb;
+$page-item-bg-color: #fff;
+$page-item-hover-bg-color: #51b5e2;
+$page-item-active-bg-color: #51b5e2;
+$page-item-active-color: #fff;
+
+
+.sk-pagination-wrp {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    * {
+        position: relative;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sk-pagination {
+        float: right;
+        margin-right: 20px;
+        font: {
+            size: 0;
+        }
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin-left: -1px;
+            font: {
+                size: 0;
+            }
+            text-align: center;
+            line-height: 30px;
+            border: 1px solid $page-item-border-color;
+            background: $page-item-bg-color;
+            cursor: pointer;
+            @include transition(background .1s linear);
+            &:first-child {
+                @include border-top-left-radius($page-item-border-radius-size);
+                @include border-bottom-left-radius($page-item-border-radius-size);
+            }
+            &:last-child {
+                @include border-top-right-radius($page-item-border-radius-size);
+                @include border-bottom-right-radius($page-item-border-radius-size);
+            }
+            &:hover, &.active {
+                border: 1px solid $page-item-active-bg-color;
+                background: $page-item-hover-bg-color;
+                z-index: 20;
+
+                a {
+                    color: $page-item-active-color;
+                }
+            }
+            &.active {
+                a {
+                    cursor: default;
+                }
+            }
+
+            a {
+                display: block;
+                min-width: 30px;
+                height: 30px;
+                padding: 0 10px;
+                font: {
+                    size: 14px;
+                }
+                color: $page-item-color;
+                text-decoration: none;
+            }
+        }
+        .first, .prev, .next, .last {
+            a {
+                min-width: 50px;
+            }
+        }
+        .first {
+
+        }
+        .prev {
+
+        }
+        .next {
+
+        }
+        .last {
+
+        }
+    }
+}
