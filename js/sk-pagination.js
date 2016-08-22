@@ -38,7 +38,8 @@
         },
         createInstance: function () {
             this.$sourceTarget.data('SK_Pagination', this);
-
+            
+            // this.checkVisiblePages();
             this.calcTotalPages();
             this.checkTotalPage();
             this.resetRightEndPage();
@@ -77,7 +78,17 @@
             var $item;
 
             if (clz !== '') {
-                $item = _this.createElement('<li class="' + clz + '"><a href="#">' + page + '</a></li>');
+                var pageText;
+                if (page === 'first') {
+                    pageText = _this.options.firstText;
+                } else if (page === 'prev') {
+                    pageText = _this.options.prevText;
+                } else if (page === 'next') {
+                    pageText = _this.options.nextText;
+                } else if (page === 'last') {
+                    pageText = _this.options.lastText;
+                }
+                $item = _this.createElement('<li class="' + clz + '"><a href="#">' + pageText + '</a></li>');
             } else {
                $item = _this.createElement('<li><a href="#">' + page + '</a></li>');
             }
@@ -103,6 +114,17 @@
                 var $item = this.createPageItem(i);
                 this.$pagination.append($item);
             }
+
+            if (this.options.prevNext) {
+                var $prev = this.createPageItem('prev', 'prev');
+                var $next = this.createPageItem('next', 'next');
+                this.$pagination.prepend($prev).append($next);
+            }
+            if (this.options.FirstLast) {
+                var $prev = this.createPageItem('first', 'first');
+                var $next = this.createPageItem('last', 'last');
+                this.$pagination.prepend($prev).append($next);
+            }
         },
         loadCurrentPageData: function () {
             var sliceData;
@@ -112,6 +134,11 @@
                 sliceData = this.options.datas.slice((this.options.currentPage - 1) * this.options.onePageDataCount, this.options.currentPage * this.options.onePageDataCount);
             }
             this.$element.trigger('clickPageEvent', [this.$element, sliceData]);
+        },
+        checkVisiblePages: function () {
+            if (this.options.visiblePages < 3) {
+                this.options.visiblePages = 3;
+            }
         },
         calcTotalPages: function () {
             if (this.options.datas.length === 0) {
@@ -148,22 +175,50 @@
                 _this.loadCurrentPageData();
             },
             reBulidPageItems: function (_this, ev) {
-                _this.options.currentPage = $(this).data('page');
+                var page = $(this).data('page');
+                if (page === 'first' || page === 'prev'|| page === 'next'|| page === 'last') {
+                    if (page === 'first') {
+                        page = 1;
+                    } else if (page === 'prev') {
+                         page = _this.options.currentPage - 1
+                         if (page < 1) {
+                             page = 1;
+                         }
+                    } else if (page === 'next') {
+                         page = _this.options.currentPage + 1
+                         if (page > _this.options.totalPages) {
+                             page = _this.options.totalPages;
+                         }
+                    } else if (page === 'last') {
+                        page = _this.options.totalPages;
+                    }
+                }
+                _this.options.currentPage = page;
 
                 var offset = Math.floor((_this.options.endPage - _this.options.startPage + 1) / 2);
                 var midPage = _this.options.startPage + offset;
-                if (_this.options.currentPage > midPage) {
-                    _this.options.startPage += _this.options.currentPage - midPage;
-                    if ((_this.options.startPage + _this.options.visiblePages) > _this.options.totalPages) {
-                        _this.options.startPage = _this.options.totalPages - _this.options.visiblePages + 1;
+                if (_this.options.visiblePages === 2) {
+                    if (_this.options.currentPage >= midPage) {
+                        _this.options.startPage = _this.options.startPage + (_this.options.currentPage - midPage) + 1;
+                    } else if (_this.options.currentPage < midPage) {
+                        _this.options.startPage = _this.options.startPage - (midPage - _this.options.currentPage);
                     }
-                    _this.options.endPage = _this.options.startPage + _this.options.visiblePages - 1;
-                } else if (_this.options.currentPage < midPage) {
-                    _this.options.startPage -= midPage - _this.options.currentPage;
-                    if (_this.options.startPage < 1) {
-                        _this.options.startPage = 1;
+                } else {
+                    if (_this.options.currentPage > midPage) {
+                        _this.options.startPage = _this.options.startPage + (_this.options.currentPage - midPage);
+                    } else if (_this.options.currentPage < midPage) {
+                        _this.options.startPage = _this.options.startPage - (midPage - _this.options.currentPage);
                     }
-                    _this.options.endPage = _this.options.startPage + _this.options.visiblePages - 1;
+                }
+
+                if (_this.options.startPage < 1) {
+                    _this.options.startPage = 1;
+                }
+
+                _this.options.endPage = _this.options.startPage + _this.options.visiblePages - 1;
+                if (_this.options.endPage > _this.options.totalPages) {
+                    _this.options.startPage = _this.options.totalPages - _this.options.visiblePages + 1;
+                    _this.options.endPage = _this.options.totalPages;
                 }
 
                 _this.buildPageItems();

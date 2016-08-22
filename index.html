@@ -36,14 +36,20 @@
                 success: function (resp) {
                     $('#myPagination').SK_Pagination({
                         datas: resp.data,
-                        onePageDataCount: 10,
-                        visiblePages: 7,
+                        onePageDataCount: 5,
+                        visiblePages: 3,
+                        firstText: '<<',
+                        prevText: '<',
+                        nextText: '>',
+                        lastText: '>>',
                         clickPageEvent: function (ev, ui, datas) {
                             ui.find('.sk-content').empty();
+                            $ul = $('<ul/>');
                             for (var i=0; i<datas.length; i++) {
-                                var $items = $('<ul>\n <li>\n  <span class="label">' + datas[i].name + '</span><span class="text">' + datas[i].desc + '</span>\n  </li>\n </ul>')
-                                ui.find('.sk-content').append($items);
+                                var $items = $('<li>\n  <span class="label">' + datas[i].name + '</span><span class="text">' + datas[i].desc + '</span>\n  </li>\n')
+                                $ul.append($items);
                             }
+                            ui.find('.sk-content').append($ul);
                         }
                     });
                 }
