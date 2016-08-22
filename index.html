@@ -5,7 +5,6 @@
     <title>Pagination</title>
     <link rel="stylesheet" href="css/sk-pagination.css">
     <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/jquery.twbsPagination.js"></script>
     <script src="js/sk-pagination.js"></script>
 
     <style>
@@ -31,14 +30,6 @@
 
     <script>
         $(document).ready(function () {
-            $('#pagination-demo').twbsPagination({
-                totalPages: 35,
-                visiblePages: 7,
-                onPageClick: function (event, page) {
-                    $('#page-content').text('Page ' + page);
-                }
-            });
-
             $.ajax({
                 url: 'json/data.json',
                 type: 'get',
