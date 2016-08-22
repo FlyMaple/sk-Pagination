@@ -87,6 +87,7 @@
             }
 
             $item.data('page', page).on('click', function (ev) { 
+                ev.preventDefault();
                 _this.eventHandle.itemPageClick.apply(this,[_this, ev]); 
             });
 
