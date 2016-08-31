@@ -73,7 +73,8 @@
 
             return  this.$pagination;
         },
-        createPageItem: function (page, clz = '') {
+        createPageItem: function (page, clz) {
+            clz = clz || '';
             var _this = this;
             var $item;
 
